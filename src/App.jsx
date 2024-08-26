@@ -34,7 +34,7 @@ function App() {
     );
 
     if (hasEmptyFields) {
-      toast.error("Iltimos formani toldiring");
+      toast.error("Iltimos formani to'ldiring");
       return;
     }
     localStorage.clear();
